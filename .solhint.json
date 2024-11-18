@@ -1,0 +1,26 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "prettier/prettier": "error",
+    "compiler-version": ["error", "^0.8.0"],
+    "no-empty-blocks": "off",
+    "no-global-import": "off",
+    "no-console": "off",
+    "func-visibility": [
+      "warn",
+      {
+        "ignoreConstructors": true
+      }
+    ],
+    "quotes": ["error", "double"],
+    "indent": ["off", 4],
+    "reason-string": [
+      "warn",
+      {
+        "maxLength": 64
+      }
+    ],
+    "not-rely-on-time": "off"
+  },
+  "plugins": ["prettier"]
+}

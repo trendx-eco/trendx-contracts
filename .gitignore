@@ -1,0 +1,24 @@
+.vscode/
+node_modules/
+artifacts/
+cache/
+temp/
+tmp/
+types/
+.DS_Store
+cmd.sh
+*.zip
+*.rar
+deployments
+*.log
+.idea
+opp.json
+yarn.lock
+vedao-deployer-key.json
+deployment.localhost.ts
+
+#Foundry files
+out/
+forge-cache
+key.txt
+.env

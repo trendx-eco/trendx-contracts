@@ -1,0 +1,8 @@
+artifacts
+cache
+deployments
+scripts
+types
+contracts/**/*.js
+contracts/**/*.html
+lib/*
